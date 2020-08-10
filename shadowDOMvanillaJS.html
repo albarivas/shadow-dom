@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shadow DOM</title>
+
+        <style>
+            h1 {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>I belong to Light DOM</h1>
+
+        <script>
+            const el = document.createElement('div');
+            const shadowRoot = el.attachShadow({ mode: 'open' });
+            shadowRoot.innerHTML = '<h1>I belong to Shadow DOM</h1>';
+
+            const container = document.querySelector('body');
+            container.appendChild(el);
+
+            console.log(document.querySelectorAll('h1').length);
+            console.log(document.querySelectorAll('h1')[0].textContent);
+
+            console.log(el.shadowRoot.querySelectorAll('h1').length);
+            console.log(el.shadowRoot.querySelectorAll('h1')[0].textContent);
+        </script>
+    </body>
+</html>
