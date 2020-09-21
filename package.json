@@ -14,7 +14,7 @@
         "husky": "^4.2.5",
         "lint-staged": "^10.2.11",
         "lwc-services": "^2.1.4",
-        "prettier": "^2.0.5"
+        "prettier": "^2.1.2"
     },
     "engines": {
         "node": ">=10.13.0",
