@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "eslint": "^7.6.0",
-        "husky": "^4.2.5",
+        "husky": "^4.3.0",
         "lint-staged": "^10.2.11",
         "lwc-services": "^2.1.4",
         "prettier": "^2.0.5"
