@@ -7,14 +7,14 @@
     "dependencies": {
         "compression": "^1.7.4",
         "express": "^4.17.1",
-        "helmet": "^4.0.0"
+        "helmet": "^4.1.1"
     },
     "devDependencies": {
-        "eslint": "^7.6.0",
-        "husky": "^4.2.5",
-        "lint-staged": "^10.2.11",
+        "eslint": "^7.9.0",
+        "husky": "^4.3.0,
+        "lint-staged": "^10.4.0",
         "lwc-services": "^2.2.1",
-        "prettier": "^2.0.5"
+        "prettier": "^2.1.2"
     },
     "engines": {
         "node": ">=10.13.0",
