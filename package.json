@@ -13,7 +13,7 @@
         "eslint": "^7.6.0",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.11",
-        "lwc-services": "^2.1.4",
+        "lwc-services": "^2.2.1",
         "prettier": "^2.0.5"
     },
     "engines": {
