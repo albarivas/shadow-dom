@@ -3,7 +3,7 @@
     "description": "My amazing LWC app",
     "version": "0.0.1",
     "author": "Alba Rivas",
-    "bugs": "https://github.com/Alba Rivas/shadow-dom-oss/issues",
+    "bugs": "https://github.com/albarivas/shadow-dom/issues",
     "dependencies": {
         "compression": "^1.7.4",
         "express": "^4.17.1",
@@ -21,7 +21,7 @@
         "npm": ">=6.4.1",
         "yarn": ">=1.9.4"
     },
-    "homepage": "https://github.com/Alba Rivas/shadow-dom-oss",
+    "homepage": "https://github.com/albarivas/shadow-dom",
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged"
@@ -39,7 +39,7 @@
             "eslint"
         ]
     },
-    "repository": "Alba Rivas/shadow-dom-oss",
+    "repository": "albarivas/shadow-dom-oss",
     "scripts": {
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
