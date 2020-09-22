@@ -10,7 +10,7 @@
         "helmet": "^4.0.0"
     },
     "devDependencies": {
-        "eslint": "^7.6.0",
+        "eslint": "^7.9.0",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.11",
         "lwc-services": "^2.1.4",
