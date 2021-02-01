@@ -1,7 +1,7 @@
 import { createElement } from 'lwc';
-import MyLightningWebComponent from 'my/myLightningWebComponent';
+import MyLightningWebComponent from 'my/simpleExample';
 
-const app = createElement('my-lightning-web-component', {
+const app = createElement('my-simple-example', {
     is: MyLightningWebComponent
 });
 // eslint-disable-next-line @lwc/lwc/no-document-query
