@@ -1,8 +1,15 @@
 import { createElement } from 'lwc';
-import MyLightningWebComponent from 'my/simpleExample';
+//import '@lwc/synthetic-shadow';
+//import MyLightningWebComponent from 'my/inheritanceVsCascading';
+import MyLightningWebComponent from 'my/simpleExampleContainer';
 
-const app = createElement('my-simple-example', {
+/*const app = createElement('my-inheritance-vs-cascading', {
+    is: MyLightningWebComponent
+});*/
+
+const app = createElement('my-simple-example-container', {
     is: MyLightningWebComponent
 });
+
 // eslint-disable-next-line @lwc/lwc/no-document-query
 document.querySelector('#main').appendChild(app);
