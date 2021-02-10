@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" >
+	<lightning:card title="Design Tokens in Aura Components">
+		<h1>Cloudy is my favourite mascot</h1>
+	</lightning:card>
+</aura:component>

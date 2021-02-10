@@ -1,0 +1,14 @@
+c-css-custom-properties {
+    --my-subtitle-color: orange;
+}
+/* Test Cascading */
+h1 {
+    color: red;
+}
+h1 {
+    color: blue;
+}
+/* Test Inheritance */
+div {
+    color: green;
+}
