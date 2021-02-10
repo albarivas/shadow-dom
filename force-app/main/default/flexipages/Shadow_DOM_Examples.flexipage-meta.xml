@@ -3,12 +3,17 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>simpleExampleContainer</componentName>
+                <componentName>cascadingAndInheritanceContainer</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>importCSSLoadStyle</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>customTokensAura</componentName>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -25,6 +30,11 @@
                 <componentName>importCSSsharedModule</componentName>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>customTokensLwc</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -32,11 +42,6 @@
         <itemInstances>
             <componentInstance>
                 <componentName>stylingHooks</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>customTokensAura</componentName>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
