@@ -8,12 +8,12 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>importCSSLoadStyle</componentName>
+                <componentName>customTokensAura</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>customTokensAura</componentName>
+                <componentName>importCSSLoadStyle</componentName>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -27,12 +27,12 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>importCSSsharedModule</componentName>
+                <componentName>customTokensLwc</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>customTokensLwc</componentName>
+                <componentName>importCSSsharedModule</componentName>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
