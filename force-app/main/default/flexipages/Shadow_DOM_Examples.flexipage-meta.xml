@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>cascadingAndInheritanceContainer</componentName>
+                <componentName>cascadingParent</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>customTokensAura</componentName>
+                <componentName>inheritanceParent</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>importCSSsharedModule</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -16,7 +25,7 @@
                 <componentName>importCSSLoadStyle</componentName>
             </componentInstance>
         </itemInstances>
-        <name>region1</name>
+        <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -27,21 +36,30 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentName>customTokensAura</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>customTokensLwc</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>importCSSsharedModule</componentName>
+                <componentName>stylingHooks</componentName>
             </componentInstance>
         </itemInstances>
-        <name>region2</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>stylingHooks</componentName>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                    <value>black</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>fontColor</name>
+                    <value>white</value>
+                </componentInstanceProperties>
+                <componentName>jsInCss</componentName>
             </componentInstance>
         </itemInstances>
         <name>region3</name>

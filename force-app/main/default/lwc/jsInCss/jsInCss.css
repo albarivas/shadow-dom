@@ -1,0 +1,9 @@
+.container {
+    --my-bg-color: white;
+    --my-font-color: black;
+}
+
+.myCustomClass {
+    background: var(--my-bg-color);
+    color: var(--my-font-color);
+}

@@ -1,3 +1,7 @@
-lightning-button {
-  --sds-c-button-brand-color-background: orange;
+:host {
+    --sds-c-button-brand-color-background: orange;
+}
+
+.color1 {
+    --sds-c-button-brand-color-background: black;
 }

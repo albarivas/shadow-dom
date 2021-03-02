@@ -3,8 +3,13 @@
     <apiVersion>51.0</apiVersion>
     <isExposed>true</isExposed>
     <targets>
-      <target>lightning__RecordPage</target>
       <target>lightning__AppPage</target>
       <target>lightning__HomePage</target>
   </targets>
+  <targetConfigs>
+      <targetConfig targets="lightning__AppPage, lightning__HomePage">
+          <property name="backgroundColor" type="String" />
+          <property name="fontColor" type="String" />
+      </targetConfig>
+  </targetConfigs>
 </LightningComponentBundle>

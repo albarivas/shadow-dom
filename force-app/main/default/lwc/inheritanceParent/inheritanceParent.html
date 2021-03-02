@@ -1,0 +1,31 @@
+<template>
+    <lightning-card title="CSS Inheritance">
+        Case 1
+        <div>
+            Some
+            <span> Text</span>
+            <span class="newColor"> in parent</span>
+        </div>
+        <br /><br />
+
+        Case 2
+        <div class="somecolor">
+            Some
+            <span> Text</span>
+            <span class="newColor"> in parent</span>
+        </div>
+        <br /><br />
+
+        Case 3
+        <c-child></c-child>
+        <br /><br />
+
+        Case 4
+        <div>
+            Some
+            <span> Text</span>
+            <span class="newColor"> in parent</span>
+            <c-child></c-child>
+        </div>
+    </lightning-card>
+</template>

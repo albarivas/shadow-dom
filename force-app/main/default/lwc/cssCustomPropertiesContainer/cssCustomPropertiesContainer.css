@@ -1,9 +1,15 @@
-c-css-custom-properties {
-    --my-subtitle-color: orange;
+:host {
+    --my-subtitle-color: green;
 }
-h1 {
-    color: blue;
+
+.subtitle {
+    color: var(--my-subtitle-color);
 }
-div {
-    color: green;
+
+.color1 {
+    --my-subtitle-color: red;
+}
+
+.color2 {
+    --my-subtitle-color: blue;
 }
