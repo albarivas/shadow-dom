@@ -1,7 +1,6 @@
 .somecolor {
     background: #fad9df;
-    padding: 1rem;
-    color: red;
+    color: violet;
 }
 
 div {
@@ -12,8 +11,6 @@ div {
 
 div {
     background: #cbd3ff;
-    padding: 1rem;
-    color: red;
 }
 
 .newColor {
